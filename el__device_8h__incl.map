@@ -1,0 +1,17 @@
+<map id="porting/el_device.h" name="porting/el_device.h">
+<area shape="rect" id="node1" title=" " alt="" coords="301,5,448,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="115,80,213,107"/>
+<area shape="rect" id="node4" href="$el__types_8h.html" title=" " alt="" coords="390,229,511,256"/>
+<area shape="rect" id="node10" href="$el__camera_8h.html" title=" " alt="" coords="299,80,451,107"/>
+<area shape="rect" id="node13" href="$el__display_8h.html" title=" " alt="" coords="526,155,674,181"/>
+<area shape="rect" id="node14" href="$el__serial_8h.html" title=" " alt="" coords="575,80,713,107"/>
+<area shape="rect" id="node15" href="$el__transport_8h.html" title=" " alt="" coords="699,155,861,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="209,304,292,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="316,304,391,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="415,304,486,331"/>
+<area shape="rect" id="node8" title=" " alt="" coords="510,304,581,331"/>
+<area shape="rect" id="node9" href="$el__compiler_8h.html" title=" " alt="" coords="605,304,715,331"/>
+<area shape="rect" id="node11" title=" " alt="" coords="339,155,410,181"/>
+<area shape="rect" id="node12" title=" " alt="" coords="435,155,501,181"/>
+</map>

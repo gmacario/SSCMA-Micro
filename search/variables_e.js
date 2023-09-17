@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['scale_1147',['scale',['../structel__quant__param__t.html#add986f2a75fea5691dcede20287dd02f',1,'el_quant_param_t']]],
+  ['score_1148',['score',['../structel__box__t.html#adca5eeaa180f4e3c79e697453e9b86f4',1,'el_box_t::score()'],['../structel__point__t.html#aa1c4692ae63b7723564f4ebee3467d7b',1,'el_point_t::score()'],['../structel__class__t.html#adec55cabbf4f3074d6417740d32f32f5',1,'el_class_t::score()']]],
+  ['score_5fthreshold_1149',['score_threshold',['../structedgelab_1_1types_1_1el__algorithm__fomo__config__t.html#a5fa4b29c46a381fcbc008c81e5dd76f6',1,'edgelab::types::el_algorithm_fomo_config_t::score_threshold()'],['../structedgelab_1_1types_1_1el__algorithm__imcls__config__t.html#ab8548d18f2803d79b31058c2429d028c',1,'edgelab::types::el_algorithm_imcls_config_t::score_threshold()'],['../structedgelab_1_1types_1_1el__algorithm__yolo__config__t.html#a008ab3030c44dfa1ac8986c6419d8286',1,'edgelab::types::el_algorithm_yolo_config_t::score_threshold()']]],
+  ['size_1150',['size',['../structedgelab_1_1types_1_1el__storage__kv__t.html#aaa5257decf588e8a332b1eaa34bc840b',1,'edgelab::types::el_storage_kv_t::size()'],['../structel__shape__t.html#a5e816466602990ed0b3a60f5bc94b240',1,'el_shape_t::size()'],['../structel__memory__pool__t.html#a03fafe8e500c448a1737c3b67faa72e2',1,'el_memory_pool_t::size()'],['../structel__tensor__t.html#af973e7996ac9ede72f8b76d4e09cdfdb',1,'el_tensor_t::size()'],['../structel__img__t.html#a4c39e5a65682a06c5234be0a35e261a9',1,'el_img_t::size()'],['../structel__model__info__t.html#a406e8b9be3420b5a48653ca52c070e44',1,'el_model_info_t::size()']]],
+  ['state_1151',['state',['../structel__sensor__info__t.html#ae9d8797e39b195f134e0f07ca3dcb3a5',1,'el_sensor_info_t']]],
+  ['status_1152',['status',['../structsscma_1_1interpreter_1_1types_1_1_result.html#a3e5e67d4a87e62115b733460df420f5f',1,'sscma::interpreter::types::Result']]],
+  ['storage_1153',['storage',['../classsscma_1_1_static_resourse.html#a4da611793caef94df2843b53bc5832f1',1,'sscma::StaticResourse']]]
+];

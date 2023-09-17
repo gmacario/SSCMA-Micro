@@ -1,0 +1,26 @@
+var classedgelab_1_1_device =
+[
+    [ "~Device", "classedgelab_1_1_device.html#a6276659cb64ac56e15a7d485c3d15aa2", null ],
+    [ "Device", "classedgelab_1_1_device.html#a1b10471fa4d0d513840c9fd20ed4e92c", null ],
+    [ "get_all_sensor_info", "classedgelab_1_1_device.html#ae6c20637b229148eb73cee46623142f5", null ],
+    [ "get_all_sensor_info_count", "classedgelab_1_1_device.html#a3bb453171c2ea09056f74b6561c8ddd3", null ],
+    [ "get_camera", "classedgelab_1_1_device.html#a6407717b3f9bc95f808adfda2aaa7d16", null ],
+    [ "get_chip_revision_id", "classedgelab_1_1_device.html#ad0a5047a6ae29a3d625d3f839301dc01", null ],
+    [ "get_device_id", "classedgelab_1_1_device.html#aee767aefcebcc567d3da327d489f91f8", null ],
+    [ "get_device_name", "classedgelab_1_1_device.html#a6076e4c8429b475b20b3c9880a9a4ce0", null ],
+    [ "get_display", "classedgelab_1_1_device.html#a6ff537eea41e6ccbfd95e281929503fc", null ],
+    [ "get_sensor_info", "classedgelab_1_1_device.html#ad7d3ac8c1c27ee806fe10ab9e7e4a0b4", null ],
+    [ "get_sensor_info", "classedgelab_1_1_device.html#a2158d3d5dfb9e324ca6ddccaf99d8513", null ],
+    [ "get_serial", "classedgelab_1_1_device.html#a663cde8b494b45913181219f63e3484e", null ],
+    [ "has_sensor", "classedgelab_1_1_device.html#a66f403d2f3952882f3f833623610cda4", null ],
+    [ "has_sensor", "classedgelab_1_1_device.html#a029863b7343e489a14983de3c9e2f60c", null ],
+    [ "restart", "classedgelab_1_1_device.html#aa2fc8d8a2e4a56ebba8c2633bcb02f51", null ],
+    [ "set_sensor_state", "classedgelab_1_1_device.html#a9b68fc03df43c5d9142a9e385a3ce464", null ],
+    [ "_camera", "classedgelab_1_1_device.html#aa0ee149b66c364f0510cd90d31e660ba", null ],
+    [ "_device_id", "classedgelab_1_1_device.html#a008a2702164cb72082cc57b0fe2dd4ee", null ],
+    [ "_device_name", "classedgelab_1_1_device.html#adbe5d1f44610349399c4fff293fbbed8", null ],
+    [ "_display", "classedgelab_1_1_device.html#a798fabe7fa8a806cf0a10aac1997201c", null ],
+    [ "_registered_sensors", "classedgelab_1_1_device.html#a565bf97faffb862967fe9a353a6f55e2", null ],
+    [ "_revision_id", "classedgelab_1_1_device.html#a2ba292ae18efcb1fff9ebe39a237d947", null ],
+    [ "_serial", "classedgelab_1_1_device.html#a785de19625c621ecbea1291eef926856", null ]
+];

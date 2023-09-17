@@ -1,0 +1,20 @@
+<map id="porting/espressif/el_display_esp.cpp" name="porting/espressif/el_display_esp.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="462,5,609,47"/>
+<area shape="rect" id="node2" href="$el__display__esp_8h.html" title=" " alt="" coords="207,102,338,129"/>
+<area shape="rect" id="node12" href="$el__debug_8h.html" title=" " alt="" coords="473,102,598,129"/>
+<area shape="rect" id="node16" href="$el__board__config_8h.html" title=" " alt="" coords="622,95,769,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,184,89,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="113,184,235,211"/>
+<area shape="rect" id="node5" href="$el__types_8h.html" title=" " alt="" coords="263,259,384,285"/>
+<area shape="rect" id="node11" href="$el__display_8h.html" title=" " alt="" coords="311,184,459,211"/>
+<area shape="rect" id="node6" title=" " alt="" coords="82,333,165,360"/>
+<area shape="rect" id="node7" title=" " alt="" coords="189,333,263,360"/>
+<area shape="rect" id="node8" title=" " alt="" coords="288,333,359,360"/>
+<area shape="rect" id="node9" title=" " alt="" coords="383,333,453,360"/>
+<area shape="rect" id="node10" href="$el__compiler_8h.html" title=" " alt="" coords="478,333,587,360"/>
+<area shape="rect" id="node13" href="$el__misc_8h.html" title=" " alt="" coords="483,184,617,211"/>
+<area shape="rect" id="node14" title=" " alt="" coords="443,259,510,285"/>
+<area shape="rect" id="node15" title=" " alt="" coords="534,259,595,285"/>
+<area shape="rect" id="node17" title=" " alt="" coords="685,259,781,285"/>
+<area shape="rect" id="node18" href="$boards_8h.html" title=" " alt="" coords="720,184,847,211"/>
+</map>

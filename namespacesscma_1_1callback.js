@@ -1,0 +1,27 @@
+var namespacesscma_1_1callback =
+[
+    [ "AlgorithmConfigHelper", "classsscma_1_1callback_1_1_algorithm_config_helper.html", "classsscma_1_1callback_1_1_algorithm_config_helper" ],
+    [ "break_task", "namespacesscma_1_1callback.html#a141720dab88047e141bca520d0f5e58c", null ],
+    [ "get_action", "namespacesscma_1_1callback.html#a832242dd9d724b686a3f4e4e8d96c36b", null ],
+    [ "get_algorithm_info", "namespacesscma_1_1callback.html#ae7a07be1deba41cd15a3def26d231dd7", null ],
+    [ "get_available_algorithms", "namespacesscma_1_1callback.html#a5f312328c754d61e80091ecfe71e40f5", null ],
+    [ "get_available_models", "namespacesscma_1_1callback.html#ab6273743b09a2726bce414d315f6c545", null ],
+    [ "get_available_sensors", "namespacesscma_1_1callback.html#a2f18c23b20bacc9b4b7604283d477f63", null ],
+    [ "get_device_id", "namespacesscma_1_1callback.html#ab92615d7d43ed24feef219de8b639d27", null ],
+    [ "get_device_name", "namespacesscma_1_1callback.html#a783e89240f6965e363c6318d92d57139", null ],
+    [ "get_device_status", "namespacesscma_1_1callback.html#a8bc068d95338ee6f48d0f802ca209e1c", null ],
+    [ "get_info", "namespacesscma_1_1callback.html#aab7d7d901f47f8807415220a9c945698", null ],
+    [ "get_model_info", "namespacesscma_1_1callback.html#ae70565c069f4e0a0e0be7edffd466731", null ],
+    [ "get_sensor_info", "namespacesscma_1_1callback.html#ae59a422e4535febc647d95e11c406edc", null ],
+    [ "get_version", "namespacesscma_1_1callback.html#afc9c8d1d683211dc8d0eda71cc683485", null ],
+    [ "print_help", "namespacesscma_1_1callback.html#ab226543f45904afaf27de830027302b2", null ],
+    [ "run_invoke", "namespacesscma_1_1callback.html#a131c94e2b11afaeb4c702af39ba8580b", null ],
+    [ "run_invoke_on_img", "namespacesscma_1_1callback.html#a4256c149a77dc6ec7d489f20a97584f2", null ],
+    [ "run_sample", "namespacesscma_1_1callback.html#a2efaa3116150d437a5f0f50540a8e932", null ],
+    [ "set_action", "namespacesscma_1_1callback.html#a96845dcfa8785c4b8b93ca3871260322", null ],
+    [ "set_algorithm", "namespacesscma_1_1callback.html#a490108b1641c6fe081d0757ad3f03893", null ],
+    [ "set_info", "namespacesscma_1_1callback.html#aecbcc944a016554084477fdd60c08c98", null ],
+    [ "set_model", "namespacesscma_1_1callback.html#a6b0d647505213d591cdf4d73ad59a835", null ],
+    [ "set_sensor", "namespacesscma_1_1callback.html#a912c49de77bbedca1ca65b3b38884a69", null ],
+    [ "task_status", "namespacesscma_1_1callback.html#a6fbe62288ee2818a1563e8d71c856b0f", null ]
+];

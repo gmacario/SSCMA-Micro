@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['_5f_5f_5fiterator_1086',['___iterator',['../structedgelab_1_1_storage_1_1_iterator.html#aafafe1b61c87ac281119fe7805971e65',1,'edgelab::Storage::Iterator']]],
+  ['_5f_5f_5fkvdb_1087',['___kvdb',['../structedgelab_1_1_storage_1_1_iterator.html#ae4f864e5c658329922f40cdea760fb31',1,'edgelab::Storage::Iterator']]],
+  ['_5f_5f_5freach_5fend_1088',['___reach_end',['../structedgelab_1_1_storage_1_1_iterator.html#aa9120bba2c2eb3ad58eae6220ebe9e87',1,'edgelab::Storage::Iterator']]],
+  ['_5f_5f_5fstorage_1089',['___storage',['../structedgelab_1_1_storage_1_1_iterator.html#a94b17d6e5051a0e22449a403b9f46a72',1,'edgelab::Storage::Iterator']]],
+  ['_5f_5finput_5fquant_1090',['__input_quant',['../classedgelab_1_1base_1_1_algorithm.html#ab764a72b5c47161130ed00e2ffcd0ed8',1,'edgelab::base::Algorithm']]],
+  ['_5f_5finput_5fshape_1091',['__input_shape',['../classedgelab_1_1base_1_1_algorithm.html#aea287fd1cde90f39c195566055c3681b',1,'edgelab::base::Algorithm']]],
+  ['_5f_5foutput_5fquant_1092',['__output_quant',['../classedgelab_1_1base_1_1_algorithm.html#a5c454e712fda71367ced1fbad601acca',1,'edgelab::base::Algorithm']]],
+  ['_5f_5foutput_5fshape_1093',['__output_shape',['../classedgelab_1_1base_1_1_algorithm.html#a015e4ea404824915b66f818332596b40',1,'edgelab::base::Algorithm']]],
+  ['_5f_5fp_5fengine_1094',['__p_engine',['../classedgelab_1_1base_1_1_algorithm.html#a4ef930c08512e8a5f99fe0cb03941f5b',1,'edgelab::base::Algorithm']]],
+  ['_5f_5fp_5finput_1095',['__p_input',['../classedgelab_1_1base_1_1_algorithm.html#a6a40e591de0e03d8c9c2e77dca93ccfc',1,'edgelab::base::Algorithm']]],
+  ['_5fcamera_1096',['_camera',['../classedgelab_1_1_device.html#aa0ee149b66c364f0510cd90d31e660ba',1,'edgelab::Device']]],
+  ['_5fdevice_5fid_1097',['_device_id',['../classedgelab_1_1_device.html#a008a2702164cb72082cc57b0fe2dd4ee',1,'edgelab::Device']]],
+  ['_5fdevice_5fname_1098',['_device_name',['../classedgelab_1_1_device.html#adbe5d1f44610349399c4fff293fbbed8',1,'edgelab::Device']]],
+  ['_5fdisplay_1099',['_display',['../classedgelab_1_1_device.html#a798fabe7fa8a806cf0a10aac1997201c',1,'edgelab::Device']]],
+  ['_5fis_5fpresent_1100',['_is_present',['../classedgelab_1_1_camera.html#a857d1770289d13e05b6eb01c0fd2fbe8',1,'edgelab::Camera::_is_present()'],['../classedgelab_1_1_display.html#a86547421723c92db7fb22d5fa792dbf0',1,'edgelab::Display::_is_present()'],['../classedgelab_1_1_transport.html#af5b7916b03fb7a6158b2bcd72dc8f19f',1,'edgelab::Transport::_is_present()']]],
+  ['_5fis_5fstreaming_1101',['_is_streaming',['../classedgelab_1_1_camera.html#ad82f9a4b965ae2bd4c8bee29210aa0f7',1,'edgelab::Camera']]],
+  ['_5fregistered_5fsensors_1102',['_registered_sensors',['../classedgelab_1_1_device.html#a565bf97faffb862967fe9a353a6f55e2',1,'edgelab::Device']]],
+  ['_5frevision_5fid_1103',['_revision_id',['../classedgelab_1_1_device.html#a2ba292ae18efcb1fff9ebe39a237d947',1,'edgelab::Device']]],
+  ['_5fserial_1104',['_serial',['../classedgelab_1_1_device.html#a785de19625c621ecbea1291eef926856',1,'edgelab::Device']]]
+];

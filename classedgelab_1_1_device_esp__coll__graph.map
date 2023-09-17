@@ -1,0 +1,8 @@
+<map id="edgelab::DeviceEsp" name="edgelab::DeviceEsp">
+<area shape="rect" id="node1" title=" " alt="" coords="153,247,303,273"/>
+<area shape="rect" id="node2" href="$classedgelab_1_1_device.html" title=" " alt="" coords="165,171,291,197"/>
+<area shape="rect" id="node3" href="$classedgelab_1_1_camera.html" title=" " alt="" coords="5,81,139,108"/>
+<area shape="rect" id="node4" href="$classedgelab_1_1_display.html" title=" " alt="" coords="163,81,293,108"/>
+<area shape="rect" id="node5" href="$classedgelab_1_1_serial.html" title=" " alt="" coords="318,81,437,108"/>
+<area shape="rect" id="node6" href="$classedgelab_1_1_transport.html" title=" " alt="" coords="306,5,449,32"/>
+</map>
