@@ -34,6 +34,7 @@
 #include "el_display.h"
 #include "el_network.h"
 #include "el_serial.h"
+#include "el_spi.h"
 #include "el_transport.h"
 #include "el_wire.h"
 
@@ -53,8 +54,10 @@ class Device {
     Camera*  get_camera() { return _camera; }
     Display* get_display() { return _display; }
     Serial*  get_serial() { return _serial; }
+    Serial*  get_at() { return _at; }
     Network* get_network() { return _network; }
     Wire*    get_wire() { return _wire; }
+    SPI*     get_spi() { return _spi; }
 
     el_sensor_info_t get_sensor_info(uint8_t id) const {
         auto it = std::find_if(_registered_sensors.begin(), _registered_sensors.end(), [&](const el_sensor_info_t& s) {
@@ -121,6 +124,8 @@ class Device {
     Serial*  _serial;
     Network* _network;
     Wire*    _wire;
+    Serial*  _at;
+    SPI*     _spi;
 
     std::forward_list<el_sensor_info_t> _registered_sensors;
 };

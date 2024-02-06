@@ -46,7 +46,7 @@ class lwRingBuffer {
         if (slen > size()) {
             slen = size();
         }
-        if(slen > len - head) {
+        if (slen > len - head) {
             memcpy(str, buf + head, len - head);
             memcpy(str + len - head, buf, slen - (len - head));
         } else {
@@ -127,7 +127,8 @@ class lwRingBuffer {
         for (size_t j = 0; j <= i; j++) {
             str[j] = buf[(head + j) % len];
         }
-        head = (head + i + 1) % len;
+        head       = (head + i + 1) % len;
+        str[i + 1] = 0;
         return i + 1;
     }
 

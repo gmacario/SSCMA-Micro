@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2023 Seeed Technology Co.,Ltd
+ * Copyright (c) 2024 Hongtai Liu (Seeed Technology Inc.)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -23,38 +23,34 @@
  *
  */
 
-#ifndef _EL_TRANSPORT_H_
-#define _EL_TRANSPORT_H_
+#ifndef _EL_ESP_AT_H_
+#define _EL_ESP_AT_H_
 
-#include <cstdbool>
-#include <cstdint>
+extern "C" {
+#include <WE2_core.h>
+#include <hx_drv_gpio.h>
+#include <hx_drv_scu.h>
+#include <hx_drv_uart.h>
+}
 
-#include "core/el_types.h"
+#include "core/utils/el_ringbuffer.hpp"
+
+#define ESP_AT_MAX_RX_PAYLOAD 32
+#define ESP_AT_MAX_TX_PAYLOAD 4095
 
 namespace edgelab {
 
-// No status transport protocol (framed), TCP alternative should have a server class, a connection could derive from Transport
-class Transport {
+class ESP_AT {
    public:
-    Transport() : _is_present(false) {}
-    virtual ~Transport() = default;
+    ESP_AT();
+    ~ESP_AT();
 
-    virtual std::size_t read_bytes(char* buffer, size_t size)       = 0;
-    virtual std::size_t send_bytes(const char* buffer, size_t size) = 0;
+    el_err_code_t init();
+    el_err_code_t deinit();
 
-    virtual char        echo(bool only_visible = true)                               = 0;
-    virtual char        get_char()                                                   = 0;
-    virtual std::size_t get_line(char* buffer, size_t size, const char delim = 0x0d) = 0;
-
-    virtual std::size_t read(char* buffer, std::size_t size) { return read_bytes(buffer, size); }
-    virtual std::size_t write(char* buffer, std::size_t size) { return send_bytes(buffer, size); }
-    virtual std::size_t available() { return 0; }
-    virtual std::size_t free() { return 0; }
-
-    operator bool() const { return _is_present; }
-
-   protected:
-    bool _is_present;
+    size_t write(const char* buffer, size_t size);
+    size_t read(char* buffer, size_t size);
+    size_t aviliable();
 };
 
 }  // namespace edgelab

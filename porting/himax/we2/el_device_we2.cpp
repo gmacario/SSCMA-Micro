@@ -41,9 +41,12 @@ extern "C" {
 #include "el_config_porting.h"
 #include "el_network_at.h"
 #include "el_network_we2.h"
+#include "el_serial_at.h"
 #include "el_serial_we2.h"
 #include "el_wire_we2.h"
+#include "el_spi_at.h"
 #include "porting/el_flash.h"
+
 
 #define U55_BASE BASE_ADDR_APB_U55_CTRL_ALIAS
 
@@ -149,11 +152,17 @@ void DeviceWE2::init() {
     static SerialWE2 serial{};
     this->_serial = &serial;
 
+    static SerialAT at{};
+    this->_at = &at;
+
     static NetworkWE2 network{};
     this->_network = &network;
 
     static WireWE2 wire{0x62};
     this->_wire = &wire;
+
+    static SPIAT spi{};
+    this->_spi = &spi;
 }
 
 void DeviceWE2::reset() { __NVIC_SystemReset(); }

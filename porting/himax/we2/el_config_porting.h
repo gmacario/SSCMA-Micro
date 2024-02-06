@@ -31,6 +31,7 @@
 #include <semphr.h>
 #include <task.h>
 #include <timers.h>
+#include <event_groups.h>
 
 #ifndef CONFIG_EL_TARGET_HIMAX
     #error "Please specify porting target"

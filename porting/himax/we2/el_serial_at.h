@@ -23,38 +23,34 @@
  *
  */
 
-#ifndef _EL_TRANSPORT_H_
-#define _EL_TRANSPORT_H_
+#ifndef _EL_SERIAL_AT_H_
+#define _EL_SERIAL_AT_H_
 
-#include <cstdbool>
-#include <cstdint>
+extern "C" {
+#include <hx_drv_uart.h>
+}
 
-#include "core/el_types.h"
+#include "porting/el_serial.h"
 
 namespace edgelab {
 
-// No status transport protocol (framed), TCP alternative should have a server class, a connection could derive from Transport
-class Transport {
+class SerialAT final : public Serial {
    public:
-    Transport() : _is_present(false) {}
-    virtual ~Transport() = default;
+    SerialAT();
+    ~SerialAT();
 
-    virtual std::size_t read_bytes(char* buffer, size_t size)       = 0;
-    virtual std::size_t send_bytes(const char* buffer, size_t size) = 0;
+    el_err_code_t init() override;
+    el_err_code_t deinit() override;
 
-    virtual char        echo(bool only_visible = true)                               = 0;
-    virtual char        get_char()                                                   = 0;
-    virtual std::size_t get_line(char* buffer, size_t size, const char delim = 0x0d) = 0;
+    char        echo(bool only_visible = true) override;
+    char        get_char() override;
+    std::size_t get_line(char* buffer, size_t size, const char delim = 0x0d) override;
 
-    virtual std::size_t read(char* buffer, std::size_t size) { return read_bytes(buffer, size); }
-    virtual std::size_t write(char* buffer, std::size_t size) { return send_bytes(buffer, size); }
-    virtual std::size_t available() { return 0; }
-    virtual std::size_t free() { return 0; }
+    std::size_t read_bytes(char* buffer, size_t size) override;
+    std::size_t send_bytes(const char* buffer, size_t size) override;
 
-    operator bool() const { return _is_present; }
-
-   protected:
-    bool _is_present;
+   private:
+    DEV_UART* _console_uart;
 };
 
 }  // namespace edgelab
